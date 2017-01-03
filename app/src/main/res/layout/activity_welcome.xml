@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_welcome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.later.fx.later.view.activity.WelcomeActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <com.later.fx.later.view.widget.FixedImageView
+            android:id="@+id/welcome_img"
+            android:layout_width="480dp"
+            android:layout_height="640dp"
+            android:scaleType="centerCrop" />
+    </ScrollView>
+</RelativeLayout>

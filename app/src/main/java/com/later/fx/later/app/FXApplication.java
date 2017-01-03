@@ -22,7 +22,9 @@ public class FXApplication extends Application {
     public static FXApplication get(Context context) {
         return (FXApplication) context.getApplicationContext();
     }
-
+    public static FXApplication getInstance() {
+        return instance;
+    }
     private NetComponent netComponent;
 
     @Override
@@ -61,7 +63,5 @@ public class FXApplication extends Application {
     }
 
 
-    public static FXApplication getInstance() {
-        return instance;
-    }
+
 }
