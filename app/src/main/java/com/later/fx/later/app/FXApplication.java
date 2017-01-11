@@ -62,6 +62,8 @@ public class FXApplication extends Application {
         CalligraphyConfig.initDefault(calligraphyConfig);
     }
 
-
+    public NetComponent getNetComponent(){
+        return netComponent;
+    }
 
 }
